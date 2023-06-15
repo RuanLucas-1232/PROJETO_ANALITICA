@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/scripts.js"></script>
+    <title>Docs-Analítica</title>
+    <link rel="icon" type="image/png" href="./style/logo.png">
+</head>
+
+<body style="background-color: #d4fde0;">
+    <header>
+        <img src="./style/logo2.png" alt="logo">
+        <nav class="links-header">
+
+        </nav>
+    </header>
+    <main>
+        <div class="doc">
+            <div class="header-doc">
+                <div class="cel-doc-h" id="amostra">
+                    <label>Amostra:</label>
+                    <input id="Iamostra" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="amostra">
+                    <label>N° Laudo:</label>
+                    <input id="Ilaudo" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="recepcao">
+                    <label>Data Recepção:</label>
+                    <input id="Irecepcao" type="date">
+                </div>
+                <div class="cel-doc-h" id="lote">
+                    <label>N° Lote:</label>
+                    <input id="Ilote" type="number" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="fabricacao">
+                    <label>Data Fabricação:</label>
+                    <input id="Ifabricacao" type="date">
+                </div>
+                <div class="cel-doc-h" id="validade">
+                    <label>Validade:</label>
+                    <input id="Ivalidade" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="coleta">
+                    <label>Forma de Coleta:</label>
+                    <input id="Icoleta" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="embalagem">
+                    <label>Embalagem:</label>
+                    <input id="Iembalagem" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="finalidade">
+                    <label>Finalidade:</label>
+                    <input id="Ifinalidade" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="interessado">
+                    <label>Interessado(a):</label>
+                    <input id="Iinteressado" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="responsavel">
+                    <label>Responsável:</label>
+                    <input id="Iresponsavel" type="text" placeholder="insira aqui">
+                </div>
+                <div class="cel-doc-h" id="endereco">
+                    <label>Endereço:</label>
+                    <input id="Iendereco" type="text" placeholder="insira aqui">
+                </div>
+
+            </div>
+            <div class="Analises-doc">
+                <table id="tab2" class="tab">
+                    <colgroup>
+                        <col id="Parâmetros">
+                        <col id="Unidade">
+                        <col id="Resultado">
+                        <col id="CV">
+                        <col id="Referência">
+                    </colgroup>                     
+                        <tr>
+                            <th>Parâmetros</th>
+                            <th>Unidade Medida</th>
+                            <th>Valor Obtido</th>
+                            <th>CV(%)</th>
+                            <th>Valor de Referência</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros1"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade1"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado1"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV1"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia1"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros2"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade2"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado2"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV2"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia2"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros3"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade3"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado3"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV3"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia3"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros4"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade4"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado4"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV4"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia4"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros5"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade5"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado5"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV5"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia5"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros6"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade6"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado6"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV6"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia6"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros7"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade7"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado7"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV7"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia7"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros8"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade8"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado8"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV8"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia8"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros9"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade9"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado9"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV9"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia9"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros10"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade10"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado10"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV10"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia10"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros11"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade11"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado11"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV11"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia11"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros12"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade12"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado12"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV12"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia12"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="insira" id="data-Parametros13"></td>
+                            <td><input type="text" placeholder="insira" id="data-Unidade13"></td>
+                            <td><input type="text" placeholder="insira" id="data-Resultado13"></td>
+                            <td><input type="text" placeholder="insira" id="data-CV13"></td>
+                            <td><input type="text" placeholder="insira" id="data-Referencia13"></td>
+                        </tr>
+                        <!-- <th class="item-tab">
+
+                        </th> -->
+                </table>
+                <!-- <button onclick="adicionar()">Adicionar</button> -->
+
+                <div class="info-doc">
+                    <label>Observações:</label>
+                    <input class="obs" type="text" placeholder="Digite aqui">
+                    <br><br>
+                    <label>Metodologia analítica:</label>
+                    <input class="Metd" type="text" placeholder="Digite aqui">
+                    <br><br>
+                    <label>Bibliografia/Legislação de Referência:</label>
+                    <input class="Ref" type="text" placeholder="Digite aqui">
+                </div>
+            </div>
+            <button onclick="gerarDocumento()" type="submit">Gerar Documento</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
